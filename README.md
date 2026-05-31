@@ -7,8 +7,8 @@ A partir de la secuencia de los genomas de cada especie se aislo el gen asociado
 
 En este repositorio se puede encontrar:
 
-+ Secuencia del gen RH7 []: Corresponde a la secuencia genomica del gen extraida del genoma completo.
-+ Secuencia del CDS []: Corresponde a la secuencia genica que corresponde a los CDS habiendo eliminado ya los intrones.
-+ Secuencia de la proteína []: Corresponde a la secuencia de aminoacidos de la preteína resultante de este gen, fueron utilizadas para hacer un árbol filogenético de las especies utilizadas en este trabajo.
-+ Secuencia de los promotores []: Corresponden a 2 000 pares de bases anteriores al inicio de la traducción del gen, estas secuencias se analizaron para observar la presencia de motivos enriquecidos.
-+ Script de R []: Un script realizado para poder extraer secuencias específicas tras obtener la ubicación de la secuencia de interes mediante un BLAST (*Basic Local Alignment Search Tool*).
++ Secuencia del gen RH7: Corresponde a la secuencia genomica del gen extraida del genoma completo.
++ Secuencia del CDS: Corresponde a la secuencia genica que corresponde a los CDS habiendo eliminado ya los intrones.
++ Secuencia de la proteína: Corresponde a la secuencia de aminoacidos de la preteína resultante de este gen, fueron utilizadas para hacer un árbol filogenético de las especies utilizadas en este trabajo.
++ Secuencia de los promotores: Corresponden a 2 000 pares de bases anteriores al inicio de la traducción del gen, estas secuencias se analizaron para observar la presencia de motivos enriquecidos.
++ Script de R: Un script realizado para poder extraer secuencias específicas tras obtener la ubicación de la secuencia de interes mediante un BLAST (*Basic Local Alignment Search Tool*).
