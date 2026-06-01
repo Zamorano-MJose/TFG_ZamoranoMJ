@@ -1,10 +1,13 @@
 #### Extraer secuencia ----
 
+# Si hemos obtenido la información de donde se ubica una secuencia especifica que queremos extraer de un genoma completo, este script sigue el paso a paso de como extraer esta secuencia a partir de la información de la posición de la secuencia.
+# Se realizó en RStudio utilizando la versión de R 4.4.2.
+
  # Cargo la libreria ----
 library("Biostrings")
 
  # Defino la ruta del archivo
-genome_fasta <- "GCA_964341325.1_dhQueIlex1.hap1.1_genomic.fna"
+genome_fasta <- "GCA_964341325.1_dhQueIlex1.hap1.1_genomic.fna" #Escribimos el nombre del genoma del que queremos extraer la secuencia
 
 # Leemos el archivo FASTA
 genome <- readDNAStringSet(genome_fasta)
