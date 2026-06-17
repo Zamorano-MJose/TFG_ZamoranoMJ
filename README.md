@@ -32,11 +32,11 @@ A partir de la secuencia de los genomas de cada especie seleccionada, se realiz�
 
 El análisis de este gen en las diferentes especies se realizó con unos archivos finales de cada gen con su correspondiente CDS y su secuencia de aminoacidos ya revisada, además del análisis de sus promotores. En este repositorio se puede encontrar:
 
-+ [Secuencia del gen RH7](): Corresponde a la secuencia genomica del gen extraida del genoma completo en todas las especies utilizadas en formato .fasta.
-+ [Anotación de los genes](): Carpeta que corresponde a la anotación de cada especie que se utilizó finalmente para realizar el análisis de este gen en formato .gff.
-+ [Secuencia del CDS](): Corresponde a la secuencia genica que corresponde a los CDS habiendo eliminado ya los intrones en formato .fasta.
-+ [Secuencia de la proteína](): Corresponde a la secuencia de aminoácidos de la preteína resultante de este gen, fueron utilizadas para hacer un árbol filogenético de las especies utilizadas en el trabajo en formato .fasta.
-+ [Secuencia de los promotores](): Corresponden a 2 000 pares de bases anteriores al inicio de la traducción del gen, estas secuencias se analizaron para observar la presencia de motivos enriquecidos, se encuentra en formato .fasta.
-+ [Script de R](): Un script realizado para poder extraer secuencias específicas tras obtener la ubicación de la secuencia de interes mediante un BLAST (*Basic Local Alignment Search Tool*). Este script se realizó en RStudio utilizando la versión de R 4.4.2
++ [Secuencia del gen RH7](Secuencia_gen_RH7_especies.fasta): Corresponde a la secuencia genomica del gen extraida del genoma completo en todas las especies utilizadas en formato .fasta.
++ [Anotación de los genes](./gff%20genes): Carpeta que corresponde a la anotación de cada especie que se utilizó finalmente para realizar el análisis de este gen en formato .gff.
++ [Secuencia del CDS](Secuencia_CDS_MJZP.fasta): Corresponde a la secuencia genica que corresponde a los CDS habiendo eliminado ya los intrones en formato .fasta.
++ [Secuencia de la proteína](Secuencia_proteina_MJZP.fasta): Corresponde a la secuencia de aminoácidos de la preteína resultante de este gen, fueron utilizadas para hacer un árbol filogenético de las especies utilizadas en el trabajo en formato .fasta.
++ [Secuencia de los promotores](Secuencias_promotores_MJZP.fasta): Corresponden a 2 000 pares de bases anteriores al inicio de la traducción del gen, estas secuencias se analizaron para observar la presencia de motivos enriquecidos, se encuentra en formato .fasta.
++ [Script de R](script_extraer_sec.R): Un script realizado para poder extraer secuencias específicas tras obtener la ubicación de la secuencia de interes mediante un BLAST (*Basic Local Alignment Search Tool*). Este script se realizó en RStudio utilizando la versión de R 4.4.2
 
 > **Nota:** Aunque en el análisis preliminar se incluye *Q. lobata* debido a que se obtuvo tanto su genoma como la anotación del mismo, esta especie termino siendo descartada ya que parte de la secuencia no estaba definida y dificultaba el análisis de las secuencias del gen, CDS y proteína. Por ello, en los archivos publicados en este repositorio no aparece esta especie.
